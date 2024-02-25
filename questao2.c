@@ -11,8 +11,8 @@ Esse número pode ser informado através de qualquer entrada de sua preferência
 #include <locale.h>
 
 int entrada();
-int calculoFib(n);
-void apresentacao(n, fib);
+int calculoFib(int n);
+void apresentacao(int n);
 
 int main(){
     setlocale(LC_ALL,"Portuguese");
@@ -20,7 +20,7 @@ int main(){
     
         n = entrada();
         fib = calculoFib(n);
-        apresentacao(n, fib);
+        apresentacao(n);
 
     return 0;
 }
@@ -46,7 +46,7 @@ int calculoFib(int n){
     return fib == n;
 }
 
-void apresentacao(int n, int fib){
+void apresentacao(int n){
     if(calculoFib(n)){
         printf("\n%d pertence à sequência de Fibonacci! \n", n);
     }else{
