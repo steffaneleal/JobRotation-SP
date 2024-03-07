@@ -11,15 +11,5 @@ b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Est
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h>
-#include <dados.json>
+#include <string.h>
 
-
-void calculoFat(dados.json *dados_faturamento);
-
-int main(){
-
-
-
-    return 0;
-}

@@ -25,6 +25,7 @@ int main(){
     return 0;
 }
 
+//função para entrada de dados
 int entrada(){
     int n;
 
@@ -34,6 +35,7 @@ int entrada(){
     return n;
 }
 
+//função para cálculo do fibonacci
 int calculoFib(int n){
     int fib = 0, j = 1;
 
@@ -46,6 +48,7 @@ int calculoFib(int n){
     return fib == n;
 }
 
+//função para imprimir o resultado
 void apresentacao(int n){
     if(calculoFib(n)){
         printf("\n%d pertence à sequência de Fibonacci! \n", n);

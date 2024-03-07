@@ -24,6 +24,7 @@ int main() {
     return 0;
 }
 
+//função para entrada de dados no programa
 char *entrada() {
     char *p = (char *)malloc(46 * sizeof(char)); 
 
@@ -33,6 +34,7 @@ char *entrada() {
     return p;
 }
 
+//função para trocar a ordem das letras da string
 void inverter(char p[]) {
     int i, aux, fim, tam = strlen(p);
 
